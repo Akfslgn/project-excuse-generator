@@ -17,14 +17,20 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-}
+    padding: 0 20px 0 20px;
 h3{
     font-size: 2rem;
     margin-bottom: 2rem;
+    background: linear-gradient(to right, #13e900, #93ffb7, #013f50);
+    color: transparent;
+    background-clip: text;
 }
+
 #excuse{
     font-size: 4rem;
     font-weight: 700;
     background: linear-gradient(to right, #1d59f0, #8e3636, #0a0175);
     color: transparent;
     background-clip: text;
+    text-align: center;
+}
