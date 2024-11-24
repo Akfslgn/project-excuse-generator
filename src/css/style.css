@@ -9,3 +9,22 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h3{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+#excuse{
+    font-size: 4rem;
+    font-weight: 700;
+    background: linear-gradient(to right, #1d59f0, #8e3636, #0a0175);
+    color: transparent;
+    background-clip: text;

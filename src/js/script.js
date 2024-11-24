@@ -8,7 +8,16 @@ window.onload = function () {
 
     // 2. Generate a random excuse
 
-    const excuseText = `The dog ate my homework for breakfast`;
+    const part1 = [ 'one', 'two', 'three'];
+    const part2 = [ 'four', 'five', 'six'];
+
+    const indexPart1 = Math.floor(Math.random() * part1.length);
+    const indexPart2 = Math.floor(Math.random() * part2.length);
+
+    
+    const excuseText = `${part1[indexPart1]} ${part2[indexPart2]}`;
+
+
 
     // 3. Inseart the excuse into the excuse element
     excuse.innerHTML = excuseText;
