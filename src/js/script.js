@@ -10,11 +10,11 @@ window.onload = function () {
 
     const subjects = [ 
          "My cat", "The neighbor's dog", "A talking cactus", "An alien", "The refrigerator", 
-        "My lost sock", "The washing machine", "My pizza", "A friendly ghost", "The old chair"
+        "My lost sock", "The washing machine", "My pizza", "A friendly ghost", "The old chair", "My Grandma", "My Shoes"
     ];
     const verbs = [ 
         "stole", "destroyed", "hid", "ran away with", "turned into", 
-        "ate", "sang to", "danced around", "painted", "teleported"
+        "ate", "sang to", "danced around", "painted", "teleported",  
     ];
     const objects = [ 
         "my homework", "my favorite mug", "my phone", "my shoes", "the remote control", 
