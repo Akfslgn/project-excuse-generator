@@ -37,3 +37,19 @@ h3{
     text-align: center;
 
 }
+.btn{
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    background-color: #013f50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #117E7E;
+}
+.btn:active{
+    background-color: #8E8E8E;
+}

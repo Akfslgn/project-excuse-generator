@@ -1,13 +1,7 @@
-
-// This line of code will make sure the page is fully loaded
 window.onload = function () {
-    // Write the logic in this function
 
-    // 1. Get the excuse element
     const excuse = document.getElementById('excuse');
-
-    // 2. Generate a random excuse
-
+    const btn = document.getElementById("btn");
     const subjects = [ 
          "My cat", "The neighbor's dog", "A talking cactus", "An alien", "The refrigerator", 
         "My lost sock", "The washing machine", "My pizza", "A friendly ghost", "The old chair", "My Grandma", "My Shoes"
@@ -36,6 +30,8 @@ window.onload = function () {
 
 
 
-    // 3. Inseart the excuse into the excuse element
     excuse.innerHTML = excuseText;
 }
+btn.addEventListener("click", () => {
+    window.location.reload();
+});
