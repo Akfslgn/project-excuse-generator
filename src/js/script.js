@@ -1,5 +1,8 @@
 window.onload = function () {
+    generateExcuse();
+};
 
+    function generateExcuse() {
     const excuse = document.getElementById('excuse');
     const btn = document.getElementById("btn");
     const subjects = [ 
@@ -33,5 +36,5 @@ window.onload = function () {
     excuse.innerHTML = excuseText;
 }
 btn.addEventListener("click", () => {
-    window.location.reload();
+    generateExcuse();
 });
